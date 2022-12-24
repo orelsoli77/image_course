@@ -3,7 +3,7 @@ import streamlit as st
 import cv2
 import numpy as np
 import skimage.io as io
-import matplotlib.pyplot as plt
+
 
 
 def segment_image_kmeans(img, k=3, attempts=10): 
