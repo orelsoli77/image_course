@@ -33,8 +33,8 @@ def segment_image_kmeans(img, k=3, attempts=10):
 DEMO_IMAGE = 'demo.png' # a demo image for the segmentation page, if none is uploaded
 favicon = 'favicon.png'
 
-st.set_page_config(page_title='K-Means - Yedidya Harris', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
-st.title('Image Segmentation using K-Means, by Yedidya Harris')
+st.set_page_config(page_title='The wood culture Orel Soliman', page_icon = favicon, layout = 'wide', initial_sidebar_state = 'auto')
+st.title('The wood colture library')
 
 st.markdown(
     """
